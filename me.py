@@ -6,7 +6,6 @@ import streamlit as st
 
 
 #pictures added stuff
-image_sponge = Image.open(r"C:\Users\June\Desktop\Python\Images\spongebob.png")
 image_doit = Image.open(r"C:\Users\June\Desktop\Python\Images\photo_6314201979752133422_y.jpg")
 image_Figma1 = Image.open(r"C:\Users\June\Desktop\Python\Images\Starting page.png")
 image_cat = Image.open(r"C:\Users\June\Downloads\photo_6316453779565818721_y.jpg")
@@ -36,6 +35,7 @@ with st.container():
      st.write("[This life saving youtube channel](https://www.youtube.com/@CodingIsFun/featured)")
      st.write("Reddit forums")
      st.write("[This forum too](https://www.freecodecamp.org/news/python-code-examples-sample-script-coding-tutorial-for-beginners/)")
+     st.write("[Stack Overflow](https://stackoverflow.com/)")
      st.subheader("What I learnt")
      """The basic terminology of certain things such as "file path", "root directory" etc. I have learnt the basics of coding and can now code a simple blog on my own from scratch
      without guidance! More importantly, I realised that I actually **enjoyed** coding despite the warnings given to me by my peers :smirk_cat:"""
@@ -78,9 +78,6 @@ computing which really expanded my perspective of the world. So I realised that 
 website appears to be lackluster - it is my first time doing a hands on coding project with the help of youtube tutorials, online forums and hours of troubleshooting by exploring 
 every function!"""
 )
-with image_column: 
-   st.image(image_sponge, caption="visual rerpresentation of me showcasing my project")
-     
 
 
 
